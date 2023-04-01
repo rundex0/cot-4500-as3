@@ -153,7 +153,7 @@ def LU_decomposition(A):
 A = np.array([[1, 1, 0, 3],
               [2, 1, -1, 1],
               [3, -1, -1, 2],
-              [-1, 2, 3, -1]])
+              [-1, 2, 3, -1]]).astype(float)
 
 # Call the function and get L and U matrices
 L, U = LU_decomposition(A)
